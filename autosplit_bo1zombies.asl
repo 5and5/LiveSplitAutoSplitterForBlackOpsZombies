@@ -8,6 +8,16 @@ state("BlackOps")
 	byte dead : 0x1808D34;
 }
 
+state("BGamerT5")
+{
+	int scene_state : 0x896268;
+	int game_paused : 0x8902B4;
+	int timer : 0x2F08A30;
+	int menu_state : 0x4212FEC;
+	int magic_level : 0x1656994;
+	byte dead : 0x1808D34;
+}
+
 startup
 {
 	settings.Add("Rounds", true, "Rounds");
