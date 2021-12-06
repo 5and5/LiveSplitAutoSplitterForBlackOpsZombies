@@ -1,3 +1,7 @@
+## Black Ops Auto Timer/Spliter
+
+Compatible with Steam BO1 and BGamerT5.<br>
+
 Start, pause, reset and splits automatically.<br>
 
 Working on all maps.<br>
@@ -7,7 +11,7 @@ Rounds: 20,30,40,50 splits are useful for first room players.<br>
 Rounds: 30,50,70,100,...,163,...,260 for high round players.<br>
 Rounds: 30,50,70,100 for speedrunners.<br>
 
-## using
+## How to setup
 Run LiveSplit as administrator<br>
 To always run as admin. Right click LiveSplit.exe > Properties > Compatibility tab > Tick "run as administrator > OK <br>
 in livesplit:<br>
