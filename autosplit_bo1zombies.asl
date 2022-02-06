@@ -163,13 +163,14 @@ update
 			vars.timerModel.Pause();
 	}
 	
-	
+	/*
 	if (old.dead != 0 && current.dead == 0)
 	{
 		if (vars.timer_started)
 			vars.timerModel.Pause();
 		//vars.timer_started = false;
 	}
+	*/
 	
 	if (old.magic_level == 2000 && current.magic_level == 500)
 	{
