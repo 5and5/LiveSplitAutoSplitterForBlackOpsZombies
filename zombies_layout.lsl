@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1925</X>
-  <Y>8</Y>
+  <X>1950</X>
+  <Y>178</Y>
   <VerticalWidth>286</VerticalWidth>
   <VerticalHeight>285</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -36,12 +36,13 @@
     <ImageOpacity>1</ImageOpacity>
     <ImageBlur>0</ImageBlur>
     <Opacity>1</Opacity>
+    <MousePassThroughWhileRunning>False</MousePassThroughWhileRunning>
   </Settings>
   <Components>
     <Component>
       <Path>LiveSplit.Title.dll</Path>
       <Settings>
-        <Version>1.7</Version>
+        <Version>1.7.3</Version>
         <ShowGameName>True</ShowGameName>
         <ShowCategoryName>True</ShowCategoryName>
         <ShowAttemptCount>True</ShowAttemptCount>
@@ -49,7 +50,6 @@
         <OverrideTitleFont>False</OverrideTitleFont>
         <OverrideTitleColor>False</OverrideTitleColor>
         <TitleFont><![CDATA[AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAhTZWdvZSBVSQAAUEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAgAAAAs=]]></TitleFont>
-        <CenterTitle>False</CenterTitle>
         <SingleLine>False</SingleLine>
         <TitleColor>FFFFFFFF</TitleColor>
         <BackgroundColor>FF2A2A2A</BackgroundColor>
@@ -59,6 +59,7 @@
         <ShowRegion>False</ShowRegion>
         <ShowPlatform>False</ShowPlatform>
         <ShowVariables>True</ShowVariables>
+        <TextAlignment>0</TextAlignment>
       </Settings>
     </Component>
     <Component>
@@ -104,7 +105,7 @@
           <Settings>
             <Version>1.5</Version>
             <Name>+/-</Name>
-            <Type>Delta</Type>
+            <Type>SegmentTime</Type>
             <Comparison>Current Comparison</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
@@ -132,7 +133,7 @@
         <BackgroundColor2>FF222222</BackgroundColor2>
         <BackgroundGradient>Plain</BackgroundGradient>
         <CenterTimer>False</CenterTimer>
-        <TimingMethod>Current Timing Method</TimingMethod>
+        <TimingMethod>Game Time</TimingMethod>
         <DecimalsSize>35</DecimalsSize>
       </Settings>
     </Component>
@@ -157,11 +158,33 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\aldri\Desktop\Vault\Projects\BlackOps1ZombiesAutoSplitter\autosplit_bo1zombies.asl</ScriptPath>
+        <ScriptPath>E:\BO1 mods\LiveSplitAutoSplitterForBlackOpsZombies\BlackOps.asl</ScriptPath>
         <Start>True</Start>
         <Reset>True</Reset>
         <Split>True</Split>
-        <CustomSettings />
+        <CustomSettings>
+          <Setting id="2" type="bool">True</Setting>
+          <Setting id="30" type="bool">True</Setting>
+          <Setting id="50" type="bool">True</Setting>
+          <Setting id="70" type="bool">True</Setting>
+          <Setting id="100" type="bool">True</Setting>
+          <Setting id="110" type="bool">True</Setting>
+          <Setting id="120" type="bool">True</Setting>
+          <Setting id="130" type="bool">True</Setting>
+          <Setting id="140" type="bool">True</Setting>
+          <Setting id="150" type="bool">True</Setting>
+          <Setting id="160" type="bool">True</Setting>
+          <Setting id="170" type="bool">True</Setting>
+          <Setting id="180" type="bool">True</Setting>
+          <Setting id="190" type="bool">True</Setting>
+          <Setting id="200" type="bool">True</Setting>
+          <Setting id="210" type="bool">True</Setting>
+          <Setting id="220" type="bool">True</Setting>
+          <Setting id="230" type="bool">True</Setting>
+          <Setting id="240" type="bool">True</Setting>
+          <Setting id="250" type="bool">True</Setting>
+          <Setting id="260" type="bool">True</Setting>
+        </CustomSettings>
       </Settings>
     </Component>
   </Components>
